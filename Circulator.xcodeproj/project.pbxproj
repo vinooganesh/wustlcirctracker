@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F90CFC7016445FB20039378D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90CFC6F16445FB20039378D /* UIKit.framework */; };
+		F90CFC7216445FB20039378D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90CFC7116445FB20039378D /* Foundation.framework */; };
+		F90CFC7416445FB20039378D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90CFC7316445FB20039378D /* CoreGraphics.framework */; };
+		F90CFC7A16445FB20039378D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F90CFC7816445FB20039378D /* InfoPlist.strings */; };
+		F90CFC7C16445FB20039378D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F90CFC7B16445FB20039378D /* main.m */; };
+		F90CFC8016445FB20039378D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F90CFC7F16445FB20039378D /* AppDelegate.m */; };
+		F90CFC8316445FB20039378D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90CFC8116445FB20039378D /* MainStoryboard_iPhone.storyboard */; };
+		F90CFC8616445FB20039378D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90CFC8416445FB20039378D /* MainStoryboard_iPad.storyboard */; };
+		F90CFC8916445FB20039378D /* CirculatorMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F90CFC8816445FB20039378D /* CirculatorMap.m */; };
+		F90CFC9C16445FB30039378D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90CFC9B16445FB30039378D /* SenTestingKit.framework */; };
+		F90CFC9D16445FB30039378D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90CFC6F16445FB20039378D /* UIKit.framework */; };
+		F90CFC9E16445FB30039378D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90CFC7116445FB20039378D /* Foundation.framework */; };
+		F90CFCA616445FB30039378D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F90CFCA416445FB30039378D /* InfoPlist.strings */; };
+		F90CFCA916445FB30039378D /* CampusCircTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F90CFCA816445FB30039378D /* CampusCircTrackerTests.m */; };
+		F90CFCB9164462830039378D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90CFCB8164462830039378D /* MapKit.framework */; };
+		F90CFCBC164464520039378D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F90CFCBB164464520039378D /* QuartzCore.framework */; };
+		F90E7739164EE3A500D6CD9F /* SelectPeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E7738164EE3A500D6CD9F /* SelectPeriod.m */; };
+		F90E773C164EE4D000D6CD9F /* ShowScheduledTimes.m in Sources */ = {isa = PBXBuildFile; fileRef = F90E773B164EE4D000D6CD9F /* ShowScheduledTimes.m */; };
+		F91307251668686500EB5B3F /* aboutTab.png in Resources */ = {isa = PBXBuildFile; fileRef = F91307241668686500EB5B3F /* aboutTab.png */; };
+		F91307301668751900EB5B3F /* gearTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F913072F1668751900EB5B3F /* gearTab@2x.png */; };
+		F91307321668753900EB5B3F /* scheduleTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91307311668753900EB5B3F /* scheduleTab@2x.png */; };
+		F91307341668757E00EB5B3F /* aboutTab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91307331668757E00EB5B3F /* aboutTab@2x.png */; };
+		F92202F11664681600FD1FE7 /* StopAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F92202F01664681600FD1FE7 /* StopAnnotation.m */; };
+		F92202FA1664715300FD1FE7 /* busTab.png in Resources */ = {isa = PBXBuildFile; fileRef = F92202F91664715300FD1FE7 /* busTab.png */; };
+		F92202FC1664718800FD1FE7 /* 1353988605_status-busy.png in Resources */ = {isa = PBXBuildFile; fileRef = F92202FB1664718800FD1FE7 /* 1353988605_status-busy.png */; };
+		F926C2CB1667312A00AE1D0E /* gearTab.png in Resources */ = {isa = PBXBuildFile; fileRef = F926C2CA1667312A00AE1D0E /* gearTab.png */; };
+		F926C2D51667CC0400AE1D0E /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = F926C2D41667CC0400AE1D0E /* Settings.m */; };
+		F945CB2A165C6AC1000D038E /* VehicleAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F945CB29165C6AC1000D038E /* VehicleAnnotation.m */; };
+		F94A5FBF16649ADC00A7D388 /* RouteOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = F94A5FBE16649ADC00A7D388 /* RouteOverlay.m */; };
+		F94EE99A1683FB53004ECC4B /* SelectStop.m in Sources */ = {isa = PBXBuildFile; fileRef = F94EE9991683FB53004ECC4B /* SelectStop.m */; };
+		F94EE99F1684C45B004ECC4B /* WUSTL_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F94EE99E1684C45B004ECC4B /* WUSTL_Logo.png */; };
+		F94EE9A21684C99D004ECC4B /* Disclaimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F94EE9A11684C99C004ECC4B /* Disclaimer.m */; };
+		F952EA00164B0A5D0040A34D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F952E9FF164B0A5D0040A34D /* CFNetwork.framework */; };
+		F952EA02164B0A8F0040A34D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F952EA01164B0A8F0040A34D /* SystemConfiguration.framework */; };
+		F952EA04164B0A980040A34D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F952EA03164B0A980040A34D /* MobileCoreServices.framework */; };
+		F960C3BC16505CF6005C28D1 /* scheduleTab.png in Resources */ = {isa = PBXBuildFile; fileRef = F960C3BB16505CF6005C28D1 /* scheduleTab.png */; };
+		F960C3BF16505D13005C28D1 /* mapTab.png in Resources */ = {isa = PBXBuildFile; fileRef = F960C3BE16505D13005C28D1 /* mapTab.png */; };
+		F969B3461666C91600C511BE /* RouteXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F969B3451666C91600C511BE /* RouteXMLParser.m */; };
+		F969B3491666DEAE00C511BE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F969B3481666DEAE00C511BE /* CoreLocation.framework */; };
+		F9883BA516BC8CE100D746AD /* busIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F9883BA316BC8CE000D746AD /* busIcon.png */; };
+		F9883BA616BC8CE100D746AD /* busIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9883BA416BC8CE000D746AD /* busIcon@2x.png */; };
+		F98F71301658BE19004A90E7 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F98F712F1658BE19004A90E7 /* XMLParser.m */; };
+		F9987444168B64060060E0DC /* StopHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F9987443168B64060060E0DC /* StopHandler.m */; };
+		F99B17CD168C1FB6006ED5CD /* VehicleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F99B17CC168C1FB6006ED5CD /* VehicleObject.m */; };
+		F99B17D7168CF6A9006ED5CD /* WUSTL_Logo@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F99B17D6168CF6A9006ED5CD /* WUSTL_Logo@2x.jpg */; };
+		F99B17E31693A573006ED5CD /* Location.png in Resources */ = {isa = PBXBuildFile; fileRef = F99B17E21693A573006ED5CD /* Location.png */; };
+		F9C86D7D1649D83200394A6C /* blue_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = F9C86D7C1649D83200394A6C /* blue_pin.png */; };
+		F9C86D811649D97C00394A6C /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C86D801649D97C00394A6C /* About.m */; };
+		F9C86D841649DB8600394A6C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C86D831649DB8600394A6C /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F9DA642D16700E050015F88C /* WUSTL-circulator-app-144.png in Resources */ = {isa = PBXBuildFile; fileRef = F9DA642816700E050015F88C /* WUSTL-circulator-app-144.png */; };
+		F9DA642E16700E050015F88C /* WUSTL-circulator-app-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F9DA642916700E050015F88C /* WUSTL-circulator-app-72.png */; };
+		F9DA642F16700E050015F88C /* WUSTL-circulator-app-114.png in Resources */ = {isa = PBXBuildFile; fileRef = F9DA642A16700E050015F88C /* WUSTL-circulator-app-114.png */; };
+		F9DA643016700E050015F88C /* WUSTL-circulator-app-57.png in Resources */ = {isa = PBXBuildFile; fileRef = F9DA642B16700E050015F88C /* WUSTL-circulator-app-57.png */; };
+		F9E9FDD6166C8446001BADCA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9E9FDD5166C8446001BADCA /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F90CFC9F16445FB30039378D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F90CFC6216445FB20039378D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F90CFC6A16445FB20039378D;
+			remoteInfo = CampusCircTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F90CFC6B16445FB20039378D /* Circulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90CFC6F16445FB20039378D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F90CFC7116445FB20039378D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F90CFC7316445FB20039378D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F90CFC7716445FB20039378D /* Circulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Circulator-Info.plist"; sourceTree = "<group>"; };
+		F90CFC7916445FB20039378D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F90CFC7B16445FB20039378D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F90CFC7D16445FB20039378D /* Circulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Circulator-Prefix.pch"; sourceTree = "<group>"; };
+		F90CFC7E16445FB20039378D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F90CFC7F16445FB20039378D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F90CFC8216445FB20039378D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F90CFC8516445FB20039378D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F90CFC8716445FB20039378D /* CirculatorMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirculatorMap.h; sourceTree = "<group>"; };
+		F90CFC8816445FB20039378D /* CirculatorMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirculatorMap.m; sourceTree = "<group>"; };
+		F90CFC9A16445FB30039378D /* CirculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90CFC9B16445FB30039378D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F90CFCA316445FB30039378D /* CirculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CirculatorTests-Info.plist"; sourceTree = "<group>"; };
+		F90CFCA516445FB30039378D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F90CFCA716445FB30039378D /* CampusCircTrackerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CampusCircTrackerTests.h; sourceTree = "<group>"; };
+		F90CFCA816445FB30039378D /* CampusCircTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampusCircTrackerTests.m; sourceTree = "<group>"; };
+		F90CFCB8164462830039378D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F90CFCBB164464520039378D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F90E7737164EE3A500D6CD9F /* SelectPeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPeriod.h; sourceTree = "<group>"; };
+		F90E7738164EE3A500D6CD9F /* SelectPeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPeriod.m; sourceTree = "<group>"; };
+		F90E773A164EE4D000D6CD9F /* ShowScheduledTimes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowScheduledTimes.h; sourceTree = "<group>"; };
+		F90E773B164EE4D000D6CD9F /* ShowScheduledTimes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowScheduledTimes.m; sourceTree = "<group>"; };
+		F91307241668686500EB5B3F /* aboutTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aboutTab.png; sourceTree = "<group>"; };
+		F913072F1668751900EB5B3F /* gearTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gearTab@2x.png"; sourceTree = "<group>"; };
+		F91307311668753900EB5B3F /* scheduleTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scheduleTab@2x.png"; sourceTree = "<group>"; };
+		F91307331668757E00EB5B3F /* aboutTab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aboutTab@2x.png"; sourceTree = "<group>"; };
+		F92202EF1664681600FD1FE7 /* StopAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopAnnotation.h; sourceTree = "<group>"; };
+		F92202F01664681600FD1FE7 /* StopAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopAnnotation.m; sourceTree = "<group>"; };
+		F92202F91664715300FD1FE7 /* busTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busTab.png; sourceTree = "<group>"; };
+		F92202FB1664718800FD1FE7 /* 1353988605_status-busy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1353988605_status-busy.png"; sourceTree = "<group>"; };
+		F926C2CA1667312A00AE1D0E /* gearTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gearTab.png; sourceTree = "<group>"; };
+		F926C2D31667CC0400AE1D0E /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		F926C2D41667CC0400AE1D0E /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		F945CB28165C6AC1000D038E /* VehicleAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleAnnotation.h; sourceTree = "<group>"; };
+		F945CB29165C6AC1000D038E /* VehicleAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleAnnotation.m; sourceTree = "<group>"; };
+		F94A5FBD16649ADC00A7D388 /* RouteOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteOverlay.h; sourceTree = "<group>"; };
+		F94A5FBE16649ADC00A7D388 /* RouteOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteOverlay.m; sourceTree = "<group>"; };
+		F94EE9981683FB53004ECC4B /* SelectStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectStop.h; path = ../SelectStop.h; sourceTree = "<group>"; };
+		F94EE9991683FB53004ECC4B /* SelectStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectStop.m; path = ../SelectStop.m; sourceTree = "<group>"; };
+		F94EE99E1684C45B004ECC4B /* WUSTL_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WUSTL_Logo.png; sourceTree = "<group>"; };
+		F94EE9A01684C99C004ECC4B /* Disclaimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Disclaimer.h; sourceTree = "<group>"; };
+		F94EE9A11684C99C004ECC4B /* Disclaimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Disclaimer.m; sourceTree = "<group>"; };
+		F952E9FF164B0A5D0040A34D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F952EA01164B0A8F0040A34D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F952EA03164B0A980040A34D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F960C3BB16505CF6005C28D1 /* scheduleTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scheduleTab.png; sourceTree = "<group>"; };
+		F960C3BE16505D13005C28D1 /* mapTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapTab.png; sourceTree = "<group>"; };
+		F969B3441666C91600C511BE /* RouteXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteXMLParser.h; sourceTree = "<group>"; };
+		F969B3451666C91600C511BE /* RouteXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteXMLParser.m; sourceTree = "<group>"; };
+		F969B3481666DEAE00C511BE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F9883BA316BC8CE000D746AD /* busIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busIcon.png; sourceTree = "<group>"; };
+		F9883BA416BC8CE000D746AD /* busIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "busIcon@2x.png"; sourceTree = "<group>"; };
+		F98F712E1658BE19004A90E7 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		F98F712F1658BE19004A90E7 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		F9987442168B64060060E0DC /* StopHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopHandler.h; sourceTree = "<group>"; };
+		F9987443168B64060060E0DC /* StopHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopHandler.m; sourceTree = "<group>"; };
+		F99B17CC168C1FB6006ED5CD /* VehicleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleObject.m; sourceTree = "<group>"; };
+		F99B17D6168CF6A9006ED5CD /* WUSTL_Logo@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WUSTL_Logo@2x.jpg"; sourceTree = "<group>"; };
+		F99B17E21693A573006ED5CD /* Location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location.png; sourceTree = "<group>"; };
+		F9C86D7C1649D83200394A6C /* blue_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_pin.png; sourceTree = "<group>"; };
+		F9C86D7F1649D97B00394A6C /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
+		F9C86D801649D97C00394A6C /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = About.m; sourceTree = "<group>"; };
+		F9C86D821649DB8600394A6C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = "<group>"; };
+		F9C86D831649DB8600394A6C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability.m; sourceTree = "<group>"; };
+		F9DA642816700E050015F88C /* WUSTL-circulator-app-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WUSTL-circulator-app-144.png"; sourceTree = "<group>"; };
+		F9DA642916700E050015F88C /* WUSTL-circulator-app-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WUSTL-circulator-app-72.png"; sourceTree = "<group>"; };
+		F9DA642A16700E050015F88C /* WUSTL-circulator-app-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WUSTL-circulator-app-114.png"; sourceTree = "<group>"; };
+		F9DA642B16700E050015F88C /* WUSTL-circulator-app-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WUSTL-circulator-app-57.png"; sourceTree = "<group>"; };
+		F9DA642C16700E050015F88C /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		F9E0174F1651729800289F5C /* VehicleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleObject.h; sourceTree = "<group>"; };
+		F9E9FDD5166C8446001BADCA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F90CFC6816445FB20039378D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F969B3491666DEAE00C511BE /* CoreLocation.framework in Frameworks */,
+				F952EA04164B0A980040A34D /* MobileCoreServices.framework in Frameworks */,
+				F952EA02164B0A8F0040A34D /* SystemConfiguration.framework in Frameworks */,
+				F952EA00164B0A5D0040A34D /* CFNetwork.framework in Frameworks */,
+				F90CFCBC164464520039378D /* QuartzCore.framework in Frameworks */,
+				F90CFCB9164462830039378D /* MapKit.framework in Frameworks */,
+				F90CFC7016445FB20039378D /* UIKit.framework in Frameworks */,
+				F90CFC7216445FB20039378D /* Foundation.framework in Frameworks */,
+				F90CFC7416445FB20039378D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90CFC9616445FB30039378D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90CFC9C16445FB30039378D /* SenTestingKit.framework in Frameworks */,
+				F90CFC9D16445FB30039378D /* UIKit.framework in Frameworks */,
+				F90CFC9E16445FB30039378D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F90CFC6016445FB20039378D = {
+			isa = PBXGroup;
+			children = (
+				F90CFC7516445FB20039378D /* Circulator */,
+				F90CFCA116445FB30039378D /* CirculatorTests */,
+				F90CFC6E16445FB20039378D /* Frameworks */,
+				F90CFC6C16445FB20039378D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F90CFC6C16445FB20039378D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F90CFC6B16445FB20039378D /* Circulator.app */,
+				F90CFC9A16445FB30039378D /* CirculatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F90CFC6E16445FB20039378D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F969B3481666DEAE00C511BE /* CoreLocation.framework */,
+				F952EA03164B0A980040A34D /* MobileCoreServices.framework */,
+				F952EA01164B0A8F0040A34D /* SystemConfiguration.framework */,
+				F952E9FF164B0A5D0040A34D /* CFNetwork.framework */,
+				F90CFCBB164464520039378D /* QuartzCore.framework */,
+				F90CFCB8164462830039378D /* MapKit.framework */,
+				F90CFC6F16445FB20039378D /* UIKit.framework */,
+				F90CFC7116445FB20039378D /* Foundation.framework */,
+				F90CFC7316445FB20039378D /* CoreGraphics.framework */,
+				F90CFC9B16445FB30039378D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F90CFC7516445FB20039378D /* Circulator */ = {
+			isa = PBXGroup;
+			children = (
+				F90CFC7E16445FB20039378D /* AppDelegate.h */,
+				F90CFC7F16445FB20039378D /* AppDelegate.m */,
+				F945CB2F165C7843000D038E /* Map */,
+				F945CB31165C784B000D038E /* Schedule */,
+				F9FD6A8C166C76BF00318253 /* About */,
+				F9FD6A8D166C76D400318253 /* Settings */,
+				F90CFCB71644613C0039378D /* Storyboard Files */,
+				F90CFCBA164462F80039378D /* Images */,
+				F90CFC7616445FB20039378D /* Supporting Files */,
+			);
+			name = Circulator;
+			path = CampusCircTracker;
+			sourceTree = "<group>";
+		};
+		F90CFC7616445FB20039378D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F90CFC7716445FB20039378D /* Circulator-Info.plist */,
+				F90CFC7816445FB20039378D /* InfoPlist.strings */,
+				F90CFC7B16445FB20039378D /* main.m */,
+				F90CFC7D16445FB20039378D /* Circulator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F90CFCA116445FB30039378D /* CirculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F90CFCA716445FB30039378D /* CampusCircTrackerTests.h */,
+				F90CFCA816445FB30039378D /* CampusCircTrackerTests.m */,
+				F90CFCA216445FB30039378D /* Supporting Files */,
+			);
+			name = CirculatorTests;
+			path = CampusCircTrackerTests;
+			sourceTree = "<group>";
+		};
+		F90CFCA216445FB30039378D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F90CFCA316445FB30039378D /* CirculatorTests-Info.plist */,
+				F90CFCA416445FB30039378D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F90CFCB71644613C0039378D /* Storyboard Files */ = {
+			isa = PBXGroup;
+			children = (
+				F90CFC8116445FB20039378D /* MainStoryboard_iPhone.storyboard */,
+				F90CFC8416445FB20039378D /* MainStoryboard_iPad.storyboard */,
+			);
+			name = "Storyboard Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F90CFCBA164462F80039378D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F9883BA316BC8CE000D746AD /* busIcon.png */,
+				F9883BA416BC8CE000D746AD /* busIcon@2x.png */,
+				F99B17D6168CF6A9006ED5CD /* WUSTL_Logo@2x.jpg */,
+				F94EE99E1684C45B004ECC4B /* WUSTL_Logo.png */,
+				F99B17E21693A573006ED5CD /* Location.png */,
+				F9DA642816700E050015F88C /* WUSTL-circulator-app-144.png */,
+				F9DA642916700E050015F88C /* WUSTL-circulator-app-72.png */,
+				F9DA642A16700E050015F88C /* WUSTL-circulator-app-114.png */,
+				F9DA642B16700E050015F88C /* WUSTL-circulator-app-57.png */,
+				F9DA642C16700E050015F88C /* Default-Portrait~ipad.png */,
+				F9E9FDD5166C8446001BADCA /* Default-568h@2x.png */,
+				F91307311668753900EB5B3F /* scheduleTab@2x.png */,
+				F91307331668757E00EB5B3F /* aboutTab@2x.png */,
+				F913072F1668751900EB5B3F /* gearTab@2x.png */,
+				F91307241668686500EB5B3F /* aboutTab.png */,
+				F926C2CA1667312A00AE1D0E /* gearTab.png */,
+				F92202FB1664718800FD1FE7 /* 1353988605_status-busy.png */,
+				F92202F91664715300FD1FE7 /* busTab.png */,
+				F960C3BE16505D13005C28D1 /* mapTab.png */,
+				F960C3BB16505CF6005C28D1 /* scheduleTab.png */,
+				F9C86D7C1649D83200394A6C /* blue_pin.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F945CB2F165C7843000D038E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				F945CB33165C78CF000D038E /* Reachability */,
+				F9E0175316517A1E00289F5C /* Object Files */,
+				F98F71361658C302004A90E7 /* XML Parsers */,
+				F90CFC8716445FB20039378D /* CirculatorMap.h */,
+				F90CFC8816445FB20039378D /* CirculatorMap.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		F945CB31165C784B000D038E /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				F90E7737164EE3A500D6CD9F /* SelectPeriod.h */,
+				F90E7738164EE3A500D6CD9F /* SelectPeriod.m */,
+				F94EE9981683FB53004ECC4B /* SelectStop.h */,
+				F94EE9991683FB53004ECC4B /* SelectStop.m */,
+				F90E773A164EE4D000D6CD9F /* ShowScheduledTimes.h */,
+				F90E773B164EE4D000D6CD9F /* ShowScheduledTimes.m */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		F945CB33165C78CF000D038E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				F9C86D821649DB8600394A6C /* Reachability.h */,
+				F9C86D831649DB8600394A6C /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		F98F71361658C302004A90E7 /* XML Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				F98F712E1658BE19004A90E7 /* XMLParser.h */,
+				F98F712F1658BE19004A90E7 /* XMLParser.m */,
+				F969B3441666C91600C511BE /* RouteXMLParser.h */,
+				F969B3451666C91600C511BE /* RouteXMLParser.m */,
+			);
+			name = "XML Parsers";
+			sourceTree = "<group>";
+		};
+		F9E0175316517A1E00289F5C /* Object Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9E0174F1651729800289F5C /* VehicleObject.h */,
+				F99B17CC168C1FB6006ED5CD /* VehicleObject.m */,
+				F9987442168B64060060E0DC /* StopHandler.h */,
+				F9987443168B64060060E0DC /* StopHandler.m */,
+				F945CB28165C6AC1000D038E /* VehicleAnnotation.h */,
+				F945CB29165C6AC1000D038E /* VehicleAnnotation.m */,
+				F92202EF1664681600FD1FE7 /* StopAnnotation.h */,
+				F92202F01664681600FD1FE7 /* StopAnnotation.m */,
+				F94A5FBD16649ADC00A7D388 /* RouteOverlay.h */,
+				F94A5FBE16649ADC00A7D388 /* RouteOverlay.m */,
+			);
+			name = "Object Files";
+			sourceTree = "<group>";
+		};
+		F9FD6A8C166C76BF00318253 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				F9C86D7F1649D97B00394A6C /* About.h */,
+				F9C86D801649D97C00394A6C /* About.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		F9FD6A8D166C76D400318253 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F926C2D31667CC0400AE1D0E /* Settings.h */,
+				F926C2D41667CC0400AE1D0E /* Settings.m */,
+				F94EE9A01684C99C004ECC4B /* Disclaimer.h */,
+				F94EE9A11684C99C004ECC4B /* Disclaimer.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F90CFC6A16445FB20039378D /* Circulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90CFCAC16445FB30039378D /* Build configuration list for PBXNativeTarget "Circulator" */;
+			buildPhases = (
+				F90CFC6716445FB20039378D /* Sources */,
+				F90CFC6816445FB20039378D /* Frameworks */,
+				F90CFC6916445FB20039378D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circulator;
+			productName = CampusCircTracker;
+			productReference = F90CFC6B16445FB20039378D /* Circulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F90CFC9916445FB30039378D /* CirculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90CFCAF16445FB30039378D /* Build configuration list for PBXNativeTarget "CirculatorTests" */;
+			buildPhases = (
+				F90CFC9516445FB30039378D /* Sources */,
+				F90CFC9616445FB30039378D /* Frameworks */,
+				F90CFC9716445FB30039378D /* Resources */,
+				F90CFC9816445FB30039378D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F90CFCA016445FB30039378D /* PBXTargetDependency */,
+			);
+			name = CirculatorTests;
+			productName = CampusCircTrackerTests;
+			productReference = F90CFC9A16445FB30039378D /* CirculatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F90CFC6216445FB20039378D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = F90CFC6516445FB20039378D /* Build configuration list for PBXProject "Circulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F90CFC6016445FB20039378D;
+			productRefGroup = F90CFC6C16445FB20039378D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F90CFC6A16445FB20039378D /* Circulator */,
+				F90CFC9916445FB30039378D /* CirculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F90CFC6916445FB20039378D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90CFC7A16445FB20039378D /* InfoPlist.strings in Resources */,
+				F90CFC8316445FB20039378D /* MainStoryboard_iPhone.storyboard in Resources */,
+				F90CFC8616445FB20039378D /* MainStoryboard_iPad.storyboard in Resources */,
+				F9C86D7D1649D83200394A6C /* blue_pin.png in Resources */,
+				F960C3BC16505CF6005C28D1 /* scheduleTab.png in Resources */,
+				F960C3BF16505D13005C28D1 /* mapTab.png in Resources */,
+				F92202FA1664715300FD1FE7 /* busTab.png in Resources */,
+				F92202FC1664718800FD1FE7 /* 1353988605_status-busy.png in Resources */,
+				F926C2CB1667312A00AE1D0E /* gearTab.png in Resources */,
+				F91307251668686500EB5B3F /* aboutTab.png in Resources */,
+				F91307301668751900EB5B3F /* gearTab@2x.png in Resources */,
+				F91307321668753900EB5B3F /* scheduleTab@2x.png in Resources */,
+				F91307341668757E00EB5B3F /* aboutTab@2x.png in Resources */,
+				F9E9FDD6166C8446001BADCA /* Default-568h@2x.png in Resources */,
+				F9DA642D16700E050015F88C /* WUSTL-circulator-app-144.png in Resources */,
+				F9DA642E16700E050015F88C /* WUSTL-circulator-app-72.png in Resources */,
+				F9DA642F16700E050015F88C /* WUSTL-circulator-app-114.png in Resources */,
+				F9DA643016700E050015F88C /* WUSTL-circulator-app-57.png in Resources */,
+				F94EE99F1684C45B004ECC4B /* WUSTL_Logo.png in Resources */,
+				F99B17D7168CF6A9006ED5CD /* WUSTL_Logo@2x.jpg in Resources */,
+				F99B17E31693A573006ED5CD /* Location.png in Resources */,
+				F9883BA516BC8CE100D746AD /* busIcon.png in Resources */,
+				F9883BA616BC8CE100D746AD /* busIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90CFC9716445FB30039378D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90CFCA616445FB30039378D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F90CFC9816445FB30039378D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F90CFC6716445FB20039378D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90CFC7C16445FB20039378D /* main.m in Sources */,
+				F90CFC8016445FB20039378D /* AppDelegate.m in Sources */,
+				F90CFC8916445FB20039378D /* CirculatorMap.m in Sources */,
+				F9C86D811649D97C00394A6C /* About.m in Sources */,
+				F9C86D841649DB8600394A6C /* Reachability.m in Sources */,
+				F90E7739164EE3A500D6CD9F /* SelectPeriod.m in Sources */,
+				F90E773C164EE4D000D6CD9F /* ShowScheduledTimes.m in Sources */,
+				F98F71301658BE19004A90E7 /* XMLParser.m in Sources */,
+				F945CB2A165C6AC1000D038E /* VehicleAnnotation.m in Sources */,
+				F92202F11664681600FD1FE7 /* StopAnnotation.m in Sources */,
+				F94A5FBF16649ADC00A7D388 /* RouteOverlay.m in Sources */,
+				F969B3461666C91600C511BE /* RouteXMLParser.m in Sources */,
+				F926C2D51667CC0400AE1D0E /* Settings.m in Sources */,
+				F94EE99A1683FB53004ECC4B /* SelectStop.m in Sources */,
+				F94EE9A21684C99D004ECC4B /* Disclaimer.m in Sources */,
+				F9987444168B64060060E0DC /* StopHandler.m in Sources */,
+				F99B17CD168C1FB6006ED5CD /* VehicleObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90CFC9516445FB30039378D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90CFCA916445FB30039378D /* CampusCircTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F90CFCA016445FB30039378D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F90CFC6A16445FB20039378D /* Circulator */;
+			targetProxy = F90CFC9F16445FB30039378D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F90CFC7816445FB20039378D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90CFC7916445FB20039378D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F90CFC8116445FB20039378D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90CFC8216445FB20039378D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			path = CampusCircTracker;
+			sourceTree = "<group>";
+		};
+		F90CFC8416445FB20039378D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90CFC8516445FB20039378D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			path = CampusCircTracker;
+			sourceTree = "<group>";
+		};
+		F90CFCA416445FB30039378D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90CFCA516445FB30039378D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F90CFCAA16445FB30039378D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Washington University in St. Louis";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Washington University in St. Louis";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "CF465554-F442-45F6-AEAC-EFD7A295417D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2A3A6977-80B8-4F99-9BDF-650D143120A2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F90CFCAB16445FB30039378D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Washington University in St. Louis";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Washington University in St. Louis";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "CF465554-F442-45F6-AEAC-EFD7A295417D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2A3A6977-80B8-4F99-9BDF-650D143120A2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F90CFCAD16445FB30039378D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampusCircTracker/Circulator-Prefix.pch";
+				INFOPLIST_FILE = "CampusCircTracker/Circulator-Info.plist";
+				PRODUCT_NAME = Circulator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F90CFCAE16445FB30039378D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampusCircTracker/Circulator-Prefix.pch";
+				INFOPLIST_FILE = "CampusCircTracker/Circulator-Info.plist";
+				PRODUCT_NAME = Circulator;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F90CFCB016445FB30039378D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CampusCircTracker.app/CampusCircTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampusCircTracker/CampusCircTracker-Prefix.pch";
+				INFOPLIST_FILE = "CampusCircTrackerTests/CirculatorTests-Info.plist";
+				PRODUCT_NAME = CirculatorTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F90CFCB116445FB30039378D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CampusCircTracker.app/CampusCircTracker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CampusCircTracker/CampusCircTracker-Prefix.pch";
+				INFOPLIST_FILE = "CampusCircTrackerTests/CirculatorTests-Info.plist";
+				PRODUCT_NAME = CirculatorTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F90CFC6516445FB20039378D /* Build configuration list for PBXProject "Circulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90CFCAA16445FB30039378D /* Debug */,
+				F90CFCAB16445FB30039378D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90CFCAC16445FB30039378D /* Build configuration list for PBXNativeTarget "Circulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90CFCAD16445FB30039378D /* Debug */,
+				F90CFCAE16445FB30039378D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90CFCAF16445FB30039378D /* Build configuration list for PBXNativeTarget "CirculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90CFCB016445FB30039378D /* Debug */,
+				F90CFCB116445FB30039378D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F90CFC6216445FB20039378D /* Project object */;
+}
